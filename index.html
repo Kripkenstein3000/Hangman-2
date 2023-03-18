@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hangman Game</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      canvas {
+        border: 2px solid #000;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hangman Game</h1>
+    <canvas id="hangmanCanvas" width="500" height="500"></canvas>
+    <div>
+      <p>Guess the word:</p>
+      <p id="word"></p>
+      <p>Guessed letters:</p>
+      <p id="guesses"></p>
+      <p>Number of guesses remaining: <span id="guessesRemaining"></span></p>
+      <button id="resetButton">New Game</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
